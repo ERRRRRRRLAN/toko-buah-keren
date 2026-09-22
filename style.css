@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #FFBF47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top:0;
+}
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+a{
+    color:#1A1200;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+a:hover{
+    background-color: #FFF8E6;
+    padding: 1rem 2rem;
+}
+.navbar-links li{
+    list-style: none;
+    padding: 0 0.5em;
+}
+.judul-toko{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1A1200;
+    padding: 10px 15px;
+}
+
+.hero{
+    background-color:#FFDE8A;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ucapan{
+    text-align: left;
+    color: #1A1200;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.tentang-kami{
+    background-color: #FFEBB8;
+    padding: 50px 20px;
+    text-align: center;
+}
+.img-tentang{
+    width: 100%;
+    max-width: 40rem;
+    padding: 20px;
+    border-radius: 100px;
+}
+.judul-tentang{
+    margin:0 2rem 0 1rem;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.deskripsi-toko{
+    font-size: 1.2em;
+    color: #1A1200;
+    line-height: 1.5;
+}
+.footer-home{
+    background-color: #FFBF47;
+    text-align: center;
+    padding: 20px;
+    color: #1A1200;
+    font-weight: bold;
+}
+.btn-hero{
+    background-color: #FFBF47;
+    color: #FFBF47;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.produk {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.produk-body{
+    background-color: #FFEBB8;
+}
+.produk h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: #1A1200;
+    padding-top: 2rem;
+}
+.produk p{
+    font-size: 1.2em;
+    color: #1A1200;
+    line-height: 1.5;
+    padding-bottom:2rem;
+}
+.card-produk{
+    /* display:grid;
+    grid-template-columns: auto auto auto; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding:1.5rem;
+    background-color: #FFDE8A;
+    border-radius: 2rem;
+}
+.card img{
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 20px;
+}
+.card .strawberry {
+    width:14.5rem;   
+}
+.card .nanas{
+    width:100%;
+    max-width: 13.1rem;
+}
+.card p, .card h3, .card .btnbeli{
+    font-size: 1.2em;
+    color: #1A1200;
+    line-height: 1.5;
+    text-align: center;
+}
+.btnbeli{
+    background-color: #FFBF47;
+    color: #1A1200;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btnbeli:hover{
+    background-color: #FFF8E6;
+    transform: scale(1.1);
+}
